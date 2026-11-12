@@ -10,7 +10,7 @@ dependencies = [
     "pydantic",
     "scikit-learn",
     "scikit-dimension",
-    "torch>=2.3,<2.4",              # This restriction is needed to avoid issues with the HPC cluster
+    "torch>=2.3,<2.14",              # This restriction is needed to avoid issues with the HPC cluster
     "tqdm",
     "transformers>=4.50,<4.51",     # Note: `transformers>=4.50` is required for the `gemma-3` models.
     "zarr>=2,<3",
