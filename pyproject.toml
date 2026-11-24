@@ -2,7 +2,7 @@
 dependencies = [
     "accelerate",
     "datasets<3.6",                 # This restriction is needed to avoid issues with the HPC cluster
-    "pyarrow<21",                   # This restriction is needed to avoid issues with the HPC cluster
+    "pyarrow<24",                   # This restriction is needed to avoid issues with the HPC cluster
     "hydra-core",
     "gitpython",
     "gudhi<=3.10",                  # `gudhi` (v3.11.0) is not available on the HPC cluster
